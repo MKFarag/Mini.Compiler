@@ -8,7 +8,7 @@ public class Lexer(string input)
     // Define our token types
     private static readonly string[] _keywords = ["int", "float", "double", "string", "if", "else"];
     private static readonly string[] _operators = ["+", "-", "*", "/", "=", "==", "!=", "<", ">", "<=", ">="];
-    private static readonly string[] _separators = [";", "(", ")", "{", "}", ","];
+    private static readonly string[] _separators = [";", "(", ")", "{", "}"];
 
     public List<Token> Tokenize()
     {

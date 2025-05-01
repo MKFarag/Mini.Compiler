@@ -14,10 +14,10 @@ The compiler supports basic programming constructs and provides detailed error m
 ## Project Structure
 
 - **Program.cs**: Main entry point with the REPL (Read-Eval-Print-Loop) interface
-- **Models/**
+- **Models**
   - **Token.cs**: Represents tokens produced by the lexical analyzer
   - **ParseTreeNode.cs**: Represents nodes in the parse tree produced by the parser
-- **Services/**
+- **Services**
   - **Lexer.cs**: Implements the lexical analyzer that tokenizes input code
   - **Parser.cs**: Implements the syntax analyzer that creates a parse tree
   - **ConsoleUI.cs**: Handles console UI formatting and display
@@ -69,7 +69,7 @@ The compiler performs the following validations:
 The lexical analyzer splits the input code into tokens, identifying:
 - Keywords: `int`, `float`, `double`, `string`, `if`, `else`
 - Operators: `+`, `-`, `*`, `/`, `=`, `==`, `!=`, `<`, `>`, `<=`, `>=`
-- Separators: `;`, `(`, `)`, `{`, `}`, `,`
+- Separators: `;`, `(`, `)`, `{`, `}`
 - Identifiers, numbers, and string literals
 
 ### Parser
@@ -102,15 +102,3 @@ The compiler will display:
 ## Development
 
 Built with .NET 9.0 as a console application.
-
-## Team Gener8
-
-- Mohamed Khaled Farag
-- Ahmed Abdel Fatah
-- Ashrqat Ali Fawzy
-- Alzahraa Mohy Abdelaty
-- Kareem Ahmed Morsi
-- Amgad Aly Mohamed
-- Mohamed Wael Fathy
-- Omar Mohamed Moustafa
-- Abdelrahman Ibrahim Kamel 
