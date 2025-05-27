@@ -12,7 +12,7 @@ internal class Program
             ProcessUserInput(ref isRunning);
 
         Console.ForegroundColor = ConsoleColor.Cyan;
-        Console.WriteLine("\nThank you for using Mini Compiler!");
+        Console.WriteLine("\nThank you for using Mini Compiler.");
         Console.ResetColor();
     }
 
